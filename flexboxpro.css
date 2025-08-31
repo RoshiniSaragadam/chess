@@ -1,0 +1,38 @@
+html{
+    background-color: #FBF9D1;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.flexbox{
+    flex: 1;
+    max-width: 350px;
+    padding: 20px;
+    background-color: #dbab6d;
+    border-radius: 25px;
+}
+.sigup{
+    background-color: red;
+    border-radius: 10px;
+}
+.class{
+    font-weight: bold;
+}
+.amount{
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media (max-width: 1250px) {
+    .container{
+        flex-direction: column;
+        height: 100%;
+        width: 350px;
+    }
+    
+}
